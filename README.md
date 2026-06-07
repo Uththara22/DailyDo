@@ -56,7 +56,7 @@ DailyDo is a dedicated mobile application designed to help users establish and m
 
 ### Launch Screen
 
-<p align="center"><img src="assets/pdf-screenshots/page3_1_Image48.png" alt="Launch screen" width="95" /></p>
+<p align="center"><img src="assets/pdf-screenshots/page3_1_Image48.png" alt="Launch screen" width="180" /></p>
 
 ### Onboarding and Welcome
 
@@ -106,7 +106,7 @@ DailyDo is a dedicated mobile application designed to help users establish and m
 
 <table>
   <tr>
-    <td><img src="assets/pdf-screenshots/page8_1_Image75.png" alt="Pick a date screen" width="90" /></td>
-    <td><img src="assets/pdf-screenshots/page8_2_Image76.png" alt="Settings page" width="90" /></td>
+    <td><img src="assets/pdf-screenshots/page8_1_Image75.png" alt="Pick a date screen" width="180" /></td>
+    <td><img src="assets/pdf-screenshots/page8_2_Image76.png" alt="Settings page" width="180" /></td>
   </tr>
 </table>
