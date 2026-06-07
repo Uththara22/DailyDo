@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="256dp"
+    android:viewportWidth="512"
+    android:viewportHeight="256">
+    <!-- Abstract wave in #7a00cc -->
+    <path android:fillColor="#7a00cc"
+        android:pathData="M0,160 C64,120 128,200 192,160 256,120 320,200 384,160 448,120 512,200 512,200 L512,256 L0,256 Z"/>
+    <!-- Overlay lighter wave to add depth -->
+    <path android:fillColor="#bc8ff2"
+        android:fillAlpha="0.35"
+        android:pathData="M0,176 C64,136 128,216 192,176 256,136 320,216 384,176 448,136 512,216 512,216 L512,256 L0,256 Z"/>
+</vector>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp"
+    tools:context=".onboards.Onboard1">
+
+    <!-- Small logo at top -->
+    <ImageView
+        android:id="@+id/logo_small"
+        android:layout_width="92dp"
+        android:layout_height="89dp"
+        android:contentDescription="Logo"
+        android:src="@drawable/ic_brand_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title removed per request -->
+    
+
+    <!-- Illustration inside a rounded card -->
+
+    <!-- Text under illustration -->
+
+    <!-- Buttons -->
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:text="Find your calm"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/logo_small"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:text="Breathe, focus, and build mindful routines every day."
+        android:textColor="#CCCCCC"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/btn_skip"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Skip"
+        android:textColor="@color/go_lanka_orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nextButton"
+        app:layout_constraintTop_toTopOf="@+id/nextButton"
+        app:layout_constraintBottom_toBottomOf="@+id/nextButton"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.48" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextButton"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:backgroundTint="#ffa500"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btn_skip"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintWidth_default="percent"
+        app:layout_constraintWidth_percent="0.48" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="435dp"
+        android:layout_height="805dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178"
+        app:srcCompat="@drawable/onboard1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

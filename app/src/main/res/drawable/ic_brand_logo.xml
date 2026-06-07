@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="360dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <!-- Rounded square background (primary ~70% share across new purples) -->
+    <path
+        android:fillColor="@color/logo_purple_bg"
+        android:pathData="M64,48 h128 a24,24 0 0 1 24,24 v112 a24,24 0 0 1 -24,24 h-128 a24,24 0 0 1 -24,-24 v-112 a24,24 0 0 1 24,-24 z"/>
+    <!-- Soft inner highlight panel (lighter purple) -->
+    <path
+        android:fillColor="@color/logo_purple_light"
+        android:pathData="M76,64 h104 a16,16 0 0 1 16,16 v84 a16,16 0 0 1 -16,16 h-104 a16,16 0 0 1 -16,-16 v-84 a16,16 0 0 1 16,-16 z"/>
+    <!-- Two 'D' letters with orange fill, dark outline, and inner holes -->
+    <!-- Left D (outer + inner cutout) -->
+    <path
+        android:fillColor="@color/go_lanka_orange"
+        android:strokeColor="@color/logo_orange_stroke"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillType="evenOdd"
+        android:pathData="
+            M92,88 h26 a24,24 0 0 1 0,96 h-26 z
+            M100,104 h14 a16,16 0 0 1 0,64 h-14 z"/>
+
+    <!-- Right D (outer + inner cutout) -->
+    <path
+        android:fillColor="@color/go_lanka_orange"
+        android:strokeColor="@color/logo_orange_stroke"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:fillType="evenOdd"
+        android:pathData="
+            M144,88 h26 a24,24 0 0 1 0,96 h-26 z
+            M152,104 h14 a16,16 0 0 1 0,64 h-14 z"/>
+    
+</vector>
+

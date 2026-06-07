@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_small"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/surface"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/spacing_medium"
+        android:gravity="center_vertical">
+
+        <!-- Mood Emoji with Background -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_mood_emoji"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/surface_variant"
+            app:strokeWidth="2dp"
+            app:strokeColor="@color/go_lanka_orange"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_mood_emoji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    tools:text="😊" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Mood Info -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_mood_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Good" />
+
+            <TextView
+                android:id="@+id/tv_mood_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_extra_small"
+                android:textColor="@color/text_secondary"
+                android:textSize="12sp"
+                tools:text="Today, 2:30 PM" />
+
+            <TextView
+                android:id="@+id/tv_mood_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_extra_small"
+                android:textColor="@color/text_tertiary"
+                android:textSize="12sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:visibility="gone"
+                tools:text="Had a great day at work!"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Share Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_share_mood_entry"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_extra_small"
+                android:contentDescription="@string/share_mood"
+                app:icon="@drawable/ic_share"
+                app:iconSize="25dp"
+                app:iconTint="@color/go_lanka_orange"
+                app:backgroundTint="@android:color/transparent"
+                app:strokeWidth="0dp" />
+
+            <!-- Delete Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_delete_mood_entry"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/delete"
+                app:icon="@drawable/ic_delete"
+                app:iconSize="25dp"
+                app:iconTint="@color/error_red"
+                app:backgroundTint="@android:color/transparent"
+                app:strokeWidth="0dp" />
+
+        </LinearLayout>
+
+        <!-- Mood Color Indicator -->
+        <ImageView
+            android:id="@+id/view_mood_indicator"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:contentDescription="@string/mood_indicator"
+            android:src="@drawable/ic_data"
+            app:tint="@color/mood_happy"
+            tools:src="@drawable/ic_data"
+            tools:tint="@color/mood_happy" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
