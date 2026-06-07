@@ -42,50 +42,50 @@ DailyDo helps users stay consistent with healthy routines through a focused mobi
 ### Launch
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page3_1_Image48.png" alt="DailyDo launch screen" width="95" />
+  <img src="assets/pdf-screenshots/page3_1_Image48.png" alt="DailyDo launch screen" width="110" />
 </p>
 
 ### Onboarding & Welcome
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page4_1_Image51.jpg" alt="Onboarding screen 1" width="90" />
-  <img src="assets/pdf-screenshots/page4_2_Image52.jpg" alt="Onboarding screen 2" width="90" />
-  <img src="assets/pdf-screenshots/page4_3_Image53.jpg" alt="Onboarding screen 3" width="90" />
-  <img src="assets/pdf-screenshots/page4_4_Image54.jpg" alt="Welcome screen" width="90" />
+  <img src="assets/pdf-screenshots/page4_1_Image51.jpg" alt="Onboarding screen 1" width="105" />
+  <img src="assets/pdf-screenshots/page4_2_Image52.jpg" alt="Onboarding screen 2" width="105" />
+  <img src="assets/pdf-screenshots/page4_3_Image53.jpg" alt="Onboarding screen 3" width="105" />
+  <img src="assets/pdf-screenshots/page4_4_Image54.jpg" alt="Welcome screen" width="105" />
 </p>
 
 ### Authentication & Habits
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page5_1_Image57.png" alt="Signup screen" width="90" />
-  <img src="assets/pdf-screenshots/page5_2_Image58.png" alt="Sign in screen" width="90" />
-  <img src="assets/pdf-screenshots/page5_3_Image59.png" alt="Habit tracker screen" width="90" />
-  <img src="assets/pdf-screenshots/page5_4_Image60.png" alt="Add habit dialog" width="90" />
+  <img src="assets/pdf-screenshots/page5_1_Image57.png" alt="Signup screen" width="105" />
+  <img src="assets/pdf-screenshots/page5_2_Image58.png" alt="Sign in screen" width="105" />
+  <img src="assets/pdf-screenshots/page5_3_Image59.png" alt="Habit tracker screen" width="105" />
+  <img src="assets/pdf-screenshots/page5_4_Image60.png" alt="Add habit dialog" width="105" />
 </p>
 
 ### Mood & Hydration
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page6_1_Image63.png" alt="Mood journal screen" width="90" />
-  <img src="assets/pdf-screenshots/page6_2_Image64.png" alt="Recent mood entries" width="90" />
-  <img src="assets/pdf-screenshots/page6_3_Image65.png" alt="Hydration tracker screen" width="90" />
-  <img src="assets/pdf-screenshots/page6_4_Image66.png" alt="Set hydration goal dialog" width="90" />
+  <img src="assets/pdf-screenshots/page6_1_Image63.png" alt="Mood journal screen" width="105" />
+  <img src="assets/pdf-screenshots/page6_2_Image64.png" alt="Recent mood entries" width="105" />
+  <img src="assets/pdf-screenshots/page6_3_Image65.png" alt="Hydration tracker screen" width="105" />
+  <img src="assets/pdf-screenshots/page6_4_Image66.png" alt="Set hydration goal dialog" width="105" />
 </p>
 
 ### Reminders & Progress
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page7_1_Image69.png" alt="Add water dialog" width="90" />
-  <img src="assets/pdf-screenshots/page7_2_Image70.png" alt="Reminder settings dialog" width="90" />
-  <img src="assets/pdf-screenshots/page7_3_Image71.png" alt="Hydration reminder notification" width="90" />
-  <img src="assets/pdf-screenshots/page7_4_Image72.png" alt="Progress summary screen" width="90" />
+  <img src="assets/pdf-screenshots/page7_1_Image69.png" alt="Add water dialog" width="105" />
+  <img src="assets/pdf-screenshots/page7_2_Image70.png" alt="Reminder settings dialog" width="105" />
+  <img src="assets/pdf-screenshots/page7_3_Image71.png" alt="Hydration reminder notification" width="105" />
+  <img src="assets/pdf-screenshots/page7_4_Image72.png" alt="Progress summary screen" width="105" />
 </p>
 
 ### Settings & Date Picker
 
 <p align="center">
-  <img src="assets/pdf-screenshots/page8_1_Image75.png" alt="Date picker screen" width="90" />
-  <img src="assets/pdf-screenshots/page8_2_Image76.png" alt="Settings screen" width="90" />
+  <img src="assets/pdf-screenshots/page8_1_Image75.png" alt="Date picker screen" width="105" />
+  <img src="assets/pdf-screenshots/page8_2_Image76.png" alt="Settings screen" width="105" />
 </p>
 
 ## 🧰 Tech Stack
